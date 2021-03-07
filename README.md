@@ -7,6 +7,15 @@
 Esse repositório é um estudo de animações utilizando a [Animated API](https://reactnative.dev/docs/animated) do React Native.
 Foi inspirado em um projeto do Dribbble, e você pode vê-lo [aqui](https://dribbble.com/shots/3894781-Urbanears-Headphones).
 
+<p align="center">
+    <img src="https://img.shields.io/github/repo-size/liverday/react-native-urbanears">
+    <img src="https://img.shields.io/github/license/liverday/react-native-urbanears">
+    <img src="https://img.shields.io/github/languages/count/liverday/react-native-urbanears">
+    <img src="https://img.shields.io/github/languages/top/liverday/react-native-urbanears">
+    <img src="https://img.shields.io/github/contributors/liverday/react-native-urbanears">
+    <img src="https://img.shields.io/github/last-commit/liverday/react-native-urbanears">
+</p>
+
 ## Como executar a aplicação
 
 Você pode rodar no seu aparelho utilizando o [Snack](https://snack.expo.io/@liverday/urbanears).
