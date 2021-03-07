@@ -4,8 +4,10 @@ import { StyleSheet, Text, View, Animated, Image, Dimensions } from 'react-nativ
 
 import data from './data';
 import Earphone from './src/components/Earphone';
+import Pagination from './src/components/Pagination';
+import TickerList from './src/components/TickerList';
 
-const { width, height } = Dimensions.get('window');
+const { width } = Dimensions.get('window');
 
 export default function App() {
   const scrollX = useRef(new Animated.Value(0)).current
@@ -61,7 +63,11 @@ export default function App() {
         style={styles.logo}
         source={require('./assets/ue_black_logo.png')}
       />
+
+      <TickerList scrollX={scrollX} data={data} />
+      <Pagination scrollX={scrollX} data={data} />
     </View>
+
   );
 }
 

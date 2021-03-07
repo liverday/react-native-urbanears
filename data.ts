@@ -5,6 +5,7 @@ export interface Data {
     description: string;
     key: string;
     color: string;
+    color2: string;
 }
 
 const data: Data[] = [
@@ -15,6 +16,7 @@ const data: Data[] = [
         description: 'Four on-trend colorways to seamlessly suit your style.',
         key: 'first',
         color: '#9dcdfa',
+        color2: '#2891f4'
     },
     {
         type: 'Pampas',
@@ -23,7 +25,7 @@ const data: Data[] = [
         description: 'A bold statement tuned to perfection.',
         key: 'second',
         color: '#db9efa',
-        
+        color2: '#af29f4',
     },
     {
         type: 'Humlan P',
@@ -33,6 +35,7 @@ const data: Data[] = [
             'An Urbanears classic! Listen-all-day fit. Striking the perfect balance of effortless technology',
         key: 'third',
         color: '#999',  
+        color2: '#6b6b6b',
     },
     {
         type: 'Humlan B',
@@ -42,7 +45,7 @@ const data: Data[] = [
             'The “Plattan” in Plattan headphones is Swedish for “the slab.”',
         key: 'fourth',
         color: '#a1e3a1',
-        
+        color2: '#31a631',
     },
 ];
 
